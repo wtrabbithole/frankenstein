@@ -1,0 +1,25 @@
+1- first_run для полной очистки git
+2- vromfs_unpacke.exe распаковка aces и  char
+3- full_unpack_aces ( full_unpack_aces.bat >> aces.log)
+4- full_unpack_char (full_unpack_char.bat >> char.log)
+5- git_add_and_commit.cmd 
+6 в консоли- git log
+
+first_run.bat- запускать только самый первый раз, или если надо сбросить всю историю
+
+vromfs_unpack.cmd- запускать после добавления aces и char файлов
+скрипт сначала удаляет все старое(папки, логи), потом распаковывает новое
+
+full_unpack_aces.bat- распаковывает все файлы в папке aces
+запускать через команду full_unpack_aces.bat >> aces.log
+она создает лог работы и можно будет посмотреть, какие файлы не распаковались
+
+full_unpack_char.bat- то же самое для второго файлы. запускать full_unpack_char.bat >> char.log
+
+git_add_and_commit.cmd-добавляет обе папки с распакованными файлами, оба бинарных файла и оба лога в гит, читает номер версии и коммитит с этим названием
+
+Вытяжка патчноутов: https://warthunder.ru/ru/game/changelog
+
+это же на форуме: https://forum.warthunder.ru/index.php?/forum/637-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-windowsmaclinuxps4/
+
+####chcp 1251

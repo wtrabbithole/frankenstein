@@ -1,0 +1,10 @@
+aces.vromfs.bin_u
+char.vromfs.bin_u
+gui.vromfs.bin_u
+webUi.vromfs.bin_u
+mis.vromfs.bin_u
+aces.log
+char.log
+gui.log
+webUi.log
+mis.log

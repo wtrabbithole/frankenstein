@@ -1,0 +1,1 @@
+full_unpack_mis.bat >> mis.log
