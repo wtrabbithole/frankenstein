@@ -1,0 +1,1 @@
+var WshShell = WScript.CreateObject("WScript.Shell"); WshShell.Run("%comspec% /c echo "+String.fromCharCode(7),0,true);

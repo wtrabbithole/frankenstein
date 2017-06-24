@@ -37,3 +37,4 @@ echo n|start "" /wait %comspec% /c %~dp03.5full_unpack_mis_log.bat
 TIMEOUT /T 5
 echo n|start "" /wait %comspec% /c %~dp0mov_relise.bat
 TIMEOUT /T 5
+cscript //nologo beep.js
