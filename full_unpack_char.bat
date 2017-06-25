@@ -1,4 +1,6 @@
 @echo off
+echo Create char.log
+echo char>>%~dp0char.log
 for /R char.vromfs.bin_u %%f in (*.blk) do (
 	echo "%%~f"
 	blk_unpack.exe "%%~f"

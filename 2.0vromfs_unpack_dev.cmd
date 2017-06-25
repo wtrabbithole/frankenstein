@@ -38,3 +38,7 @@ TIMEOUT /T 5
 echo n|start "" /wait %comspec% /c %~dp0mov_dev.bat
 TIMEOUT /T 5
 cscript //nologo beep.js
+call image.bat
+TIMEOUT /T 17
+start "smartgit.exe" "C:\Program Files (x86)\SmartGit\bin\smartgit.exe"
+TIMEOUT /T 5
