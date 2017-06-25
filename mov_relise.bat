@@ -2,5 +2,5 @@
 for /F %%i in (list.txt) do (
   move /Y %%i wt-wt.ru-relise
 )
-TIMEOUT /T 5
+rem TIMEOUT /T 5
 exit /b

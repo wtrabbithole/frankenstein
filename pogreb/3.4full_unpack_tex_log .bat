@@ -1,1 +1,0 @@
-full_unpack_tex.bat >> tex.log

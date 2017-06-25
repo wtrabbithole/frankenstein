@@ -1,9 +1,8 @@
 *# Lines starting with '#' are considered comments.
 # Ignore any file named other gits
-wt-wt.ru-dev
-wt-wt.ru-relise
 .directory
 .git
+pogreb
 aces.vromfs.bin_u
 char.vromfs.bin_u
 gui.vromfs.bin_u
