@@ -10,4 +10,5 @@ for /R mis.vromfs.bin_u %%f in (*.blkxx) do (
 	echo "%%~f"
 	del "%%~f"
 )
+@Echo MIS_UNPACKED
 exit /b

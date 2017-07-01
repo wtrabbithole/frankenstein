@@ -10,4 +10,5 @@ for /R gui.vromfs.bin_u %%f in (*.blkxx) do (
 	echo "%%~f"
 	del "%%~f"
 )
+@Echo GUI_UNPACKED
 exit /b

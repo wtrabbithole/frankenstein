@@ -2,5 +2,5 @@
 for /F %%i in (list.txt) do (
   move /Y %%i wt-wt.ru-dev
 )
-rem TIMEOUT /T 5
+@Echo FILE_TRANCFER_DONE_DEV
 exit /b

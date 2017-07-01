@@ -10,4 +10,5 @@ for /R webUi.vromfs.bin_u %%f in (*.blkxx) do (
 	echo "%%~f"
 	del "%%~f"
 )
+@Echo webUi_UNPACKED
 exit /b

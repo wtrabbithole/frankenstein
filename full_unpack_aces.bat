@@ -10,4 +10,5 @@ for /R aces.vromfs.bin_u %%f in (*.blkxx) do (
 	echo "%%~f"
 	del "%%~f"
 )
+@Echo ACESS_UNPACKED
 exit /b
