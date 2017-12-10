@@ -1,4 +1,5 @@
 @Echo off
+color C
 @Echo CLEAN_OLD_FILES_IN_GIT
 rmdir wt-wt.ru-relise\aces.vromfs.bin_u /s /q
 rmdir wt-wt.ru-relise\char.vromfs.bin_u /s /q
@@ -27,7 +28,7 @@ vromfs_unpacker.exe mis.vromfs.bin
 for /f "delims=" %%x in (mis.vromfs.bin_u\version) do set version=%%x
 vromfs_unpacker.exe wwdata.vromfs.bin
 for /f "delims=" %%x in (wwdata.vromfs.bin_u\version) do set version=%%x
-pause
+rem pause
 rem exit /b
 @Echo CLEANING_BIN_FILES
 del aces.vromfs.bin /s /q
@@ -47,5 +48,4 @@ call mov_relise.bat
 cscript //nologo beep.js
 call image.bat
 call run_git.bat
-@Echo EXELENT
 exit /b
